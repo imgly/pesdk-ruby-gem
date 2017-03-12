@@ -32,17 +32,17 @@ Create a custom javascript file or modify your `application.js` to initialize th
 
 ```javascript
 ...
-var container = document.getElementById('editor')
+
 window.onload = function () {
+  var apiKey = 'your-api-key', // <-- Please replace this with your API key
+
+  var container = document.getElementById('pesdk')  
   var editor = new PhotoEditorSDK.UI.ReactUI({
     container: container,
-    apiKey: 'your-api-key', // <-- Please replace this with your API key
+    apiKey: apiKey,
     assets: {
         baseUrl: '/assets', 
-        resolver: function (path) {
-          // debugger
-          return path
-        }
+        resolver: function (path) { return path }
     }
   })
 }
@@ -53,6 +53,6 @@ window.onload = function () {
 Now, put a `<div/>` element in the view 
 ```html
 ...
-<div id='editor' />
+<div id="pesdk"  style="width: 1024px; height: 768px;">
 ...
 ```
