@@ -1,37 +1,83 @@
-> :rotating_light: *Please note:* This repository only contains completed builds. In order to access our source code repository, please [order a license](https://www.photoeditorsdk.com/pricing#contact/?utm_source=Github&utm_medium=PESDK&utm_term=HTML5). Please see [LICENSE](https://github.com/imgly/pesdk-html5/blob/master/LICENSE.md) for licensing details. :rotating_light:
-
 <p align="center">
   <img src="http://static.photoeditorsdk.com/logo.png" />
 </p>
-<p align="center">
-  <img src="https://circleci.com/gh/imgly/pesdk-html5/tree/develop.svg?style=shield&circle-token=62c63a2edc1d8f02fe583ac943ddf37846fdd210" />
-  <a href="https://pesdk-slack.herokuapp.com/">
-    <img src="https://pesdk-slack.herokuapp.com/badge.svg" alt="Slack Status" />
-  </a>
-</p>
+
+# PhotoEditorSDK HTML5 Rails Gem
+Rails Gem for easily integrating [PhotoEditorSDK HTML5](https://www.photoeditorsdk.com) in Ruby on Rails.
+
+## Note 
+The PhotoEditorSDK is a product of 9Elements GmBH. 
+Please [order a license](https://www.photoeditorsdk.com/pricing#contact/?utm_source=Github&utm_medium=PESDK&utm_term=HTML5). Please see `LICENSE.md` for licensing details.
+
 
 ## PhotoEditor SDK for HTML5.
-The [PhotoEditor SDK] (https://www.photoeditorsdk.com/?utm_source=Github&utm_medium=PESDK&utm_term=HTML5) for HTML5 is a **fully customizable** photo editor which you can integrate into your HTML5 app within minutes.
-It contains the most important photo editing tools;
-Auto-Enhance, Crop, Rotate, Focus, Brightness, Contrast, Saturation, and more.
-It also features state-of-the-art photo filters, designed and calibrated with a lot of love.
-A Text editor with an elegant and simple to use interface allows adding text instantly to the picture.
+The [PhotoEditor SDK] (https://www.photoeditorsdk.com/?utm_source=Github&utm_medium=PESDK&utm_term=HTML5) for HTML5 is a **fully customizable** photo editor which you can integrate into your Rails app within minutes.
 
-Visit [our website](https://www.photoeditorsdk.com/documentation/html5/getting-started/?utm_source=Github&utm_medium=PESDK&utm_term=HTML5) for tutorials on how to integrate and customize the editor.
+### Setup the Rails asset pipeline
 
-## Preview
+1. Reference Gem in your bundlers Gemfile. Open your `Gemfile` and insert
+```ruby
+...
+gem 'pesdk-html5-rails'
+...
+```
+2. Register javascript with the Rails asset pipeline. Open `/assets/javascripts/application.js` and insert the following lines 
 
-<p align="center">
-  <img src="http://static.photoeditorsdk.com/html5-editor.gif" />
-</p>
+```javascript
+...
+//= require react
+//= require react-dom
+//= require PhotoEditorSDK.min
+//= require PhotoEditorReactUI.min
+...
+```
 
-### License
-Please see [LICENSE](https://github.com/imgly/pesdk-html5/blob/master/LICENSE.md) for licensing details.
+3. Register stylesheets with the Rails asset pipeline.
+Open `/assets/stylesheets/application.css` and insert the following lines
+```css
+...
+*= require PhotoEditorReactUI
+...
+```
 
-### Authors and Contributors
+### Initialize the editor 
+Create a custom javascript file or modify your `application.js` to initialize the PhotoEditor UI on window load as follows 
+
+```javascript
+...
+
+window.onload = function () {
+  var apiKey = 'your-api-key', // <-- Please replace this with your API key
+
+  var container = document.getElementById('pesdk')  
+  var editor = new PhotoEditorSDK.UI.ReactUI({
+    container: container,
+    apiKey: apiKey,
+    assets: {
+        baseUrl: '/assets', 
+        resolver: function (path) { return path }
+    }
+  })
+}
+...
+
+```
+
+Now, put a `<div/>` element in the view 
+```html
+...
+<div id="pesdk"  style="width: 1024px; height: 768px;">
+...
+```
+
+
+## License
+Please see `LICENSE.md` for licensing details.
+
+## Authors and Contributors
 Made 2013-2017 by @9elements
 
-### Support or Contact
+## Support or Contact
 Contact contact@photoeditorsdk.com for support requests or to upgrade to an enterprise licence.
 
 
