@@ -18,7 +18,7 @@ The [PhotoEditor SDK] (https://www.photoeditorsdk.com/?utm_source=Github&utm_med
 1. Reference Gem in your bundlers Gemfile. Open your `Gemfile` and insert
 ```ruby
 ...
-gem 'pesdk-html5-rails', :git => 'https://github.com/imgly/pesdk-html5-rails.git'
+gem 'pesdk-html5-rails', :git => 'https://github.com/imgly/pesdk-ruby-gem-demo.git'
 ...
 ```
 2. Register javascript with the Rails asset pipeline. Open `/assets/javascripts/application.js` and insert the following lines 
