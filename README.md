@@ -11,7 +11,7 @@ Please [order a license](https://www.photoeditorsdk.com/pricing#contact/?utm_sou
 
 
 ## PhotoEditor SDK for HTML5.
-The [PhotoEditor SDK] (https://www.photoeditorsdk.com/?utm_source=Github&utm_medium=PESDK&utm_term=RUBY-GEM-DEMO) for HTML5 is a **fully customizable** photo editor which you can integrate into your Rails app within minutes.
+The [PhotoEditor SDK](https://www.photoeditorsdk.com/?utm_source=Github&utm_medium=PESDK&utm_term=RUBY-GEM-DEMO) for HTML5 is a **fully customizable** photo editor which you can integrate into your Rails app within minutes.
 
 ### Setup the Rails asset pipeline
 
