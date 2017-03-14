@@ -2,7 +2,7 @@
   <img src="http://static.photoeditorsdk.com/logo.png" />
 </p>
 
-# PhotoEditorSDK HTML5 Rails Gem
+# PhotoEditorSDK HTML5 Ruby/Rails Gem Demonstration
 Rails Gem for easily integrating [PhotoEditorSDK HTML5](https://www.photoeditorsdk.com) in Ruby on Rails.
 
 ## Note 
