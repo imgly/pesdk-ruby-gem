@@ -11,14 +11,14 @@ Please [order a license](https://www.photoeditorsdk.com/pricing#contact/?utm_sou
 
 
 ## PhotoEditor SDK for HTML5.
-The [PhotoEditor SDK] (https://www.photoeditorsdk.com/?utm_source=Github&utm_medium=PESDK&utm_term=HTML5) for HTML5 is a **fully customizable** photo editor which you can integrate into your Rails app within minutes.
+The [PhotoEditor SDK] (https://www.photoeditorsdk.com/?utm_source=Github&utm_medium=PESDK&utm_term=HTML5-Rails) for HTML5 is a **fully customizable** photo editor which you can integrate into your Rails app within minutes.
 
 ### Setup the Rails asset pipeline
 
 1. Reference Gem in your bundlers Gemfile. Open your `Gemfile` and insert
 ```ruby
 ...
-gem 'pesdk-html5-rails'
+gem 'pesdk-html5-rails', :git => 'https://github.com/imgly/pesdk-html5-rails.git'
 ...
 ```
 2. Register javascript with the Rails asset pipeline. Open `/assets/javascripts/application.js` and insert the following lines 
