@@ -47,7 +47,7 @@ Create a custom javascript file or modify your `application.js` to initialize th
 ...
 
 window.onload = function () {
-  var license = 'your-api-key' // <-- Please replace this with your API key
+  var license = 'license-string' // <- replace this with the content of your license file. The JSON-object needs to be in string format
 
   var container = document.getElementById('pesdk')  
   var editor = new PhotoEditorSDK.UI.ReactUI({
