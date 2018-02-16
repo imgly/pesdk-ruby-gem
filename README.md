@@ -27,8 +27,8 @@ gem 'pesdk-html5-rails', :git => 'https://github.com/imgly/pesdk-ruby-gem-demo.g
 ...
 //= require react
 //= require react-dom
-//= require PhotoEditorSDK.min
-//= require PhotoEditorReactUI.min
+//= require PhotoEditorSDK
+//= require PhotoEditorSDK.UI.ReactUI
 ...
 ```
 
@@ -36,7 +36,7 @@ gem 'pesdk-html5-rails', :git => 'https://github.com/imgly/pesdk-ruby-gem-demo.g
 Open `/assets/stylesheets/application.css` and insert the following lines
 ```css
 ...
-*= require PhotoEditorReactUI
+*= require PhotoEditorSDK.UI.ReactUI
 ...
 ```
 
@@ -47,12 +47,12 @@ Create a custom javascript file or modify your `application.js` to initialize th
 ...
 
 window.onload = function () {
-  var apiKey = 'your-api-key', // <-- Please replace this with your API key
+  var license = 'your-api-key' // <-- Please replace this with your API key
 
   var container = document.getElementById('pesdk')  
   var editor = new PhotoEditorSDK.UI.ReactUI({
     container: container,
-    apiKey: apiKey,
+    license: license,
     assets: {
         baseUrl: '/assets', 
         resolver: function (path) { return path }
