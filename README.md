@@ -38,10 +38,11 @@ Open `/assets/stylesheets/application.css` and insert the following lines
 ...
 *= require PhotoEditorSDK.UI.ReactUI
 ...
+*/
 ```
+Important: Insert the code snipped before the `*/`
 
-### Initialize the editor 
-Create a custom javascript file or modify your `application.js` to initialize the PhotoEditor UI on window load as follows 
+4. Create a custom javascript file or modify your `application.js` to initialize the PhotoEditor UI on window load as follows 
 
 ```javascript
 ...
@@ -63,13 +64,19 @@ window.onload = function () {
 
 ```
 
-Now, put a `<div/>` element in the view 
+5. Now, put a `<div/>` element in the view 
 ```html
 ...
 <div id="pesdk"  style="width: 1024px; height: 768px;">
 ...
 ```
 
+## Switch between React- and DesktopUI
+In order to use the DesktopUI instead of the ReactUI, you need to make some changes to your setup. Replace in point ...
+
+2.  `//= require PhotoEditorSDK.UI.ReactUI` with `//= require PhotoEditorSDK.UI.DesktopUI`
+3.  `*= require PhotoEditorSDK.UI.ReactUI` with `*= require PhotoEditorSDK.UI.DesktopUI`
+4.  `var editor = new PhotoEditorSDK.UI.ReactUI` with `var editor = new PhotoEditorSDK.UI.DesktopUI` in `home.js`
 
 ## License
 Please see [LICENSE](https://github.com/imgly/pesdk-html5-rails/blob/master/LICENSE.md) for licensing details.
