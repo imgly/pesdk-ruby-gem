@@ -6,7 +6,7 @@
 Rails Gem for easily integrating [PhotoEditor SDK](https://www.photoeditorsdk.com/?utm_campaign=Projects&utm_source=Github&utm_medium=Side_Projects&utm_content=Ruby-Gem-Demo) for HTML5 in Ruby on Rails.
 
 ## Note 
-The [PhotoEditor SDK](https://www.photoeditorsdk.com/?utm_campaign=Projects&utm_source=Github&utm_medium=Side_Projects&utm_content=Ruby-Gem-Demo) is a product of 9Elements GmBH. 
+The [PhotoEditor SDK](https://www.photoeditorsdk.com/?utm_campaign=Projects&utm_source=Github&utm_medium=Side_Projects&utm_content=Ruby-Gem-Demo) is a product of img.ly GmbH. 
 Please [order a license](https://www.photoeditorsdk.com/pricing#contact/?utm_campaign=Projects&utm_source=Github&utm_medium=Side_Projects&utm_content=Ruby-Gem-Demo). Please see `LICENSE.md` for licensing details.
 
 
@@ -25,10 +25,10 @@ gem 'pesdk-html5-rails', :git => 'https://github.com/imgly/pesdk-ruby-gem-demo.g
 
 ```javascript
 ...
-//= require react
-//= require react-dom
-//= require PhotoEditorSDK
-//= require PhotoEditorSDK.UI.ReactUI
+//= require react.production.min
+//= require react-dom.production.min
+//= require PhotoEditorSDK.min
+//= require PhotoEditorSDK.UI.ReactUI.min
 ...
 ```
 
@@ -36,7 +36,7 @@ gem 'pesdk-html5-rails', :git => 'https://github.com/imgly/pesdk-ruby-gem-demo.g
 Open `/assets/stylesheets/application.css` and insert the following lines
 ```css
 ...
-*= require PhotoEditorSDK.UI.ReactUI
+*= require PhotoEditorSDK.UI.ReactUI.min
 ...
 */
 ```
@@ -74,17 +74,17 @@ window.onload = function () {
 ## Switch between React- and DesktopUI
 In order to use the DesktopUI instead of the ReactUI, you need to make some changes to your setup. Replace in point ...
 
-2.  `//= require PhotoEditorSDK.UI.ReactUI` with `//= require PhotoEditorSDK.UI.DesktopUI`
-3.  `*= require PhotoEditorSDK.UI.ReactUI` with `*= require PhotoEditorSDK.UI.DesktopUI`
+2.  `//= require PhotoEditorSDK.UI.ReactUI.min` with `//= require PhotoEditorSDK.UI.DesktopUI.min`
+3.  `*= require PhotoEditorSDK.UI.ReactUI.min` with `*= require PhotoEditorSDK.UI.DesktopUI.min`
 4.  `var editor = new PhotoEditorSDK.UI.ReactUI` with `var editor = new PhotoEditorSDK.UI.DesktopUI` in `home.js`
 
 ## License
 Please see [LICENSE](https://github.com/imgly/pesdk-html5-rails/blob/master/LICENSE.md) for licensing details.
 
 ## Authors and Contributors
-Made 2013-2017 by @9elements
+Made 2013-2019 by img.ly
 
 ## Support or Contact
-Use our [service desk](http://support.photoeditorsdk.com) for bug reports or support requests. To request a commercial license, please use the [license request form](https://www.photoeditorsdk.com/pricing) on our website.
+Use our [service desk](https://support.photoeditorsdk.com) for bug reports or support requests. To request a commercial license, please use the [license request form](https://www.photoeditorsdk.com/pricing) on our website.
 
 
