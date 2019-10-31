@@ -7,7 +7,7 @@ Rails Gem for easily integrating [PhotoEditor SDK](https://www.photoeditorsdk.co
 
 ## Note 
 The [PhotoEditor SDK](https://www.photoeditorsdk.com/?utm_campaign=Projects&utm_source=Github&utm_medium=Side_Projects&utm_content=Ruby-Gem-Demo) is a product of img.ly GmbH. 
-Please [request a license](https://account.photoeditorsdk.com/pricing?product=pesdk?utm_campaign=Projects&utm_source=Github&utm_medium=Side_Projects&utm_content=Ruby-Gem-Demo). Please see `LICENSE.md` for licensing details.
+Please [request a license](https://account.photoeditorsdk.com/pricing?product=pesdk/?utm_campaign=Projects&utm_source=Github&utm_medium=Side_Projects&utm_content=Ruby-Gem-Demo). Please see `LICENSE.md` for licensing details.
 
 
 ## PhotoEditor SDK for HTML5.
@@ -85,6 +85,6 @@ Please see [LICENSE](https://github.com/imgly/pesdk-html5-rails/blob/master/LICE
 Made 2013-2019 by img.ly
 
 ## Support or Contact
-Use our [service desk](https://support.photoeditorsdk.com) for bug reports or support requests. To request a commercial license, please use the [license request form](https://account.photoeditorsdk.com/pricing?product=pesdk?utm_campaign=Projects&utm_source=Github&utm_medium=Side_Projects&utm_content=Ruby-Gem-Demo) on our website.
+Use our [service desk](https://support.photoeditorsdk.com) for bug reports or support requests. To request a commercial license, please use the [license request form](https://account.photoeditorsdk.com/pricing?product=pesdk?/utm_campaign=Projects&utm_source=Github&utm_medium=Side_Projects&utm_content=Ruby-Gem-Demo) on our website.
 
 
