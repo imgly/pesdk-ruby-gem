@@ -1,1 +1,0 @@
-- add functional umd build

@@ -23,6 +23,17 @@ gem 'pesdk-html5-rails', :git => 'https://github.com/imgly/pesdk-ruby-gem-demo.g
 ```
 2. Register javascript with the Rails asset pipeline. Open `/assets/javascripts/application.js` and insert the following lines 
 
+
+```javascript
+...
+//= require react.production.min
+//= require react-dom.production.min
+//= require react-dom-server.browser.production.min
+//= require styled-components.min
+//= require photoeditorsdk
+...
+```
+
 3. Create a custom javascript file or modify your `application.js` to initialize the PhotoEditor UI on window load as follows 
 
 ```javascript
