@@ -6,7 +6,7 @@ require 'pesdk/html5/rails/version'
 Gem::Specification.new do |spec|
   spec.name          = "pesdk-html5-rails"
   spec.version       = Pesdk::Html5::Rails::VERSION
-  spec.authors       = ["Daniel Hauschildt"]
+  spec.authors       = ["img.ly GmbH"]
   spec.email         = ["contact@photoeditorsdk.com"]
 
   spec.summary       = "A fully customizable photo editor for your app."
