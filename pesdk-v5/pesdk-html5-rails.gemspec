@@ -1,7 +1,7 @@
 Gem::Specification.new do |spec|
   spec.name        = "pesdk-html5-rails"
   spec.version     = '5.6.1'
-  spec.authors     = ["Daniel Hauschildt"]
+  spec.authors     = ["img.ly GmbH"]
   spec.email       = ["contact@photoeditorsdk.com"]
   spec.date        = '2020-10-01'
   spec.summary     = "A fully customizable photo editor for your app."
