@@ -1,4 +1,3 @@
-require "pesdk/html5/rails/version"
 require "pesdk/html5/rails/engine"
 
 module Pesdk
