@@ -48,7 +48,7 @@ window.onload = function () {
 ```
 
 ## License
-Please see [LICENSE](https://github.com/imgly/pesdk-html5-rails/blob/master/LICENSE.md) for licensing details.
+Please see [LICENSE](https://github.com/imgly/pesdk-ruby-gem-demo/blob/main/LICENSE.md) for licensing details.
 
 ## Authors and Contributors
 Made 2013-2020 by img.ly
