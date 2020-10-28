@@ -82,7 +82,7 @@ In order to use the DesktopUI instead of the ReactUI, you need to make some chan
 Please see [LICENSE](https://github.com/imgly/pesdk-html5-rails/blob/master/LICENSE.md) for licensing details.
 
 ## Authors and Contributors
-Made 2013-2019 by img.ly
+Made 2013-2020 by img.ly
 
 ## Support or Contact
 Use our [service desk](https://support.photoeditorsdk.com) for bug reports or support requests. To request a commercial license, please use the [license request form](https://account.photoeditorsdk.com/pricing?utm_campaign=Projects&utm_source=Github&utm_medium=Side_Projects&utm_content=Ruby-Gem-Demo) on our website.
