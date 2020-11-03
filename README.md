@@ -41,8 +41,8 @@ gem 'pesdk-html5-rails', :git => 'https://github.com/imgly/pesdk-ruby-gem-demo.g
 window.onload = function () {
    PhotoEditorSDK.PhotoEditorSDKUI.init({
        container: '#pesdk',
-       license: '', //<- Insert License
-       image: '', //<- Insert Image
+       license: '', // <- replace this with the content of your license file. The JSON-object needs to be in string format
+       image: '', // <- Image url or Image path relative to assets folder
        assetBaseUrl: '/assets',
   })
 }
