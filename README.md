@@ -50,7 +50,7 @@ window.onload = function () {
 
 ```
 
-5. Now, put a `<div/>` element in the view 
+4. Now, put a `<div/>` element in the view 
 ```html
 ...
 <div id="pesdk"  style="width: 1024px; height: 768px;">
@@ -65,11 +65,4 @@ Made 2013-2020 by img.ly
 
 ## Support or Contact
 Use our [service desk](https://support.photoeditorsdk.com) for bug reports or support requests. To request a commercial license, please use the [license request form](https://account.photoeditorsdk.com/pricing?utm_campaign=Projects&utm_source=Github&utm_medium=Side_Projects&utm_content=Ruby-Gem-Demo) on our website.
-
-
-
-
-
-
-
 
