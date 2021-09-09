@@ -1,17 +1,17 @@
 <p align="center">
-  <img src="http://static.photoeditorsdk.com/logo.png" />
+  <img src="https://img.ly/static/logos/PE.SDK_Logo.svg" />
 </p>
 
 # PhotoEditor SDK for HTML5 Ruby/Rails Gem Demonstration
-Rails Gem for easily integrating [PhotoEditor SDK](https://www.photoeditorsdk.com/?utm_campaign=Projects&utm_source=Github&utm_medium=Side_Projects&utm_content=Ruby-Gem-Demo) for HTML5 in Ruby on Rails.
+Rails Gem for easily integrating [PhotoEditor SDK](https://img.ly/photo-sdk?utm_campaign=Projects&utm_source=Github&utm_medium=Side_Projects&utm_content=Ruby-Gem-Demo) for HTML5 in Ruby on Rails.
 
 ## Note 
-The [PhotoEditor SDK](https://www.photoeditorsdk.com/?utm_campaign=Projects&utm_source=Github&utm_medium=Side_Projects&utm_content=Ruby-Gem-Demo) is a product of img.ly GmbH. 
-Please [request a license](https://account.photoeditorsdk.com/pricing?utm_campaign=Projects&utm_source=Github&utm_medium=Side_Projects&utm_content=Ruby-Gem-Demo). Please see `LICENSE.md` for licensing details.
+The [PhotoEditor SDK](https://img.ly/photo-sdk?utm_campaign=Projects&utm_source=Github&utm_medium=Side_Projects&utm_content=Ruby-Gem-Demo) is a product of img.ly GmbH. 
+Please [request a license](https://img.ly/pricing?utm_campaign=Projects&utm_source=Github&utm_medium=Side_Projects&utm_content=Ruby-Gem-Demo). Please see `LICENSE.md` for licensing details.
 
 
 ## PhotoEditor SDK for HTML5.
-The [PhotoEditor SDK](https://www.photoeditorsdk.com/?utm_campaign=Projects&utm_source=Github&utm_medium=Side_Projects&utm_content=Ruby-Gem-Demo) for HTML5 is a **fully customizable** photo editor which you can integrate into your Rails app within minutes.
+The [PhotoEditor SDK](https://img.ly/photo-sdk?utm_campaign=Projects&utm_source=Github&utm_medium=Side_Projects&utm_content=Ruby-Gem-Demo) for HTML5 is a **fully customizable** photo editor which you can integrate into your Rails app within minutes.
 
 ### Setup the Rails asset pipeline
 
@@ -64,5 +64,5 @@ Please see [LICENSE](https://github.com/imgly/pesdk-ruby-gem-demo/blob/main/LICE
 Made 2013-2020 by img.ly
 
 ## Support or Contact
-Use our [service desk](https://support.photoeditorsdk.com) for bug reports or support requests. To request a commercial license, please use the [license request form](https://account.photoeditorsdk.com/pricing?utm_campaign=Projects&utm_source=Github&utm_medium=Side_Projects&utm_content=Ruby-Gem-Demo) on our website.
+Use our [service desk](https://support.img.ly) for bug reports or support requests. To request a commercial license, please use the [license request form](https://img.ly/pricing?utm_campaign=Projects&utm_source=Github&utm_medium=Side_Projects&utm_content=Ruby-Gem-Demo) on our website.
 
